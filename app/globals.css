@@ -1,26 +1,32 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* ── WARNA UTAMA BRAND TPQ QORIBULLAH ── */
+  --color-primary: #36669c;
+  --color-secondary: #3a2f6b;
+  --color-accent: #41a0ae;
+  --color-success: #10b981;
+  --color-background: #f7fafc;
+  --color-white: #ffffff;
+  --color-text: #172033;
+
+  /* ── PEMETAAN WARNA PELANGI MAGIC UI (MANDATORI V4 ENGINE) ── */
+  --color-color-1: #36669c;
+  --color-color-2: #41a0ae;
+  --color-color-3: #10b981;
+  --color-color-4: #3a2f6b;
+  --color-color-5: #36669c;
+
+  /* ── INTEGRASI FONT NEXT.JS ── */
+  --font-sans: var(--font-plus-jakarta), sans-serif;
+  --font-serif: var(--font-playfair), serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ── EMULASI UNTUK DARK MODE (JIKA DIKUNJUNGI DI MODE GELAP) ── */
+.dark {
+  --color-color-1: #36669c;
+  --color-color-2: #41a0ae;
+  --color-color-3: #10b981;
+  --color-color-4: #3a2f6b;
+  --color-color-5: #36669c;
 }
