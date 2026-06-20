@@ -184,7 +184,7 @@ export default function SchedulePricing() {
               <div className="w-full sm:w-auto shrink-0">
                 <Button
                   label="Konsultasi via WhatsApp"
-                  href="https://wa.me/082382206701"
+                  href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}`}
                   variant="rainbow"
                   className="w-full sm:w-auto text-center"
                 />

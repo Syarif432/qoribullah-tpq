@@ -27,7 +27,9 @@ export default function Contact() {
     e.preventDefault();
     const text = `Bismillah, mendaftar TPQ Qoribullah:\nNama Orang Tua: ${form.parentName}\nNama Anak: ${form.childName}\nUsia: ${form.age}\nPesan: ${form.message}`;
     window.open(
-      `https://wa.me/082382206701?text=${encodeURIComponent(text)}`,
+      `https://wa.me/${
+        process.env.NEXT_PUBLIC_WHATSAPP_NUMBER
+      }?text=${encodeURIComponent(text)}`,
       "_blank"
     );
   };
