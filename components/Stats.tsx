@@ -58,8 +58,6 @@ export default function Stats() {
                 {/* CONTAINER ANIMASI ANGKA */}
                 <div className="text-4xl sm:text-5xl font-serif font-light text-accent flex items-baseline">
                   {item.isNumeric ? (
-                    // Trik key={`ticker-${isInView}`} memaksa NumberTicker me-reload animasi
-                    // berhitungnya dari nol setiap kali section terdeteksi masuk ke layar kembali.
                     <div className="inline-flex items-baseline">
                       <NumberTicker
                         key={`ticker-${idx}-${isInView}`}
@@ -73,7 +71,6 @@ export default function Stats() {
                       )}
                     </div>
                   ) : (
-                    // Jika data berupa teks biasa ("Berkala"), tampilkan statis tanpa memicu error parsing
                     <span className="tracking-tight">{item.value}</span>
                   )}
                 </div>

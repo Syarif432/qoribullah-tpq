@@ -18,17 +18,18 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "TPQ Qoribullah | Kursus Mengaji Privat Anak Way Halim Bandar Lampung",
+  title: "TPQ Qoribullah | Kursus Mengaji Privat Anak Kedaton Bandar Lampung",
   description:
-    "TPQ Qoribullah menyediakan kursus mengaji privat untuk anak di Sidodadi, Way Halim, Bandar Lampung. Membimbing anak mengenal huruf hijaiyah, tahsin Al-Qur'an, dan adab sejak dini.",
+    "TPQ Qoribullah menyediakan kursus mengaji privat untuk anak di Sidodadi, Kedaton, Bandar Lampung. Membimbing anak mengenal huruf hijaiyah, tahsin Al-Qur'an, dan adab sejak dini.",
   keywords: [
     "TPQ Lampung",
+    "TPQ Bandar Lampung",
+    "TPQ Kedaton",
+    "TPQ Sidodadi Bandar Lampung",
     "Kursus Mengaji Lampung",
     "Belajar Quran Anak Bandar Lampung",
-    "TPQ Way Halim",
-    "TPQ Sidodadi Bandar Lampung",
     "Ngaji Privat Anak Lampung",
-    "Guru Ngaji Panggilan Way Halim",
+    "Guru Ngaji Panggilan Kedaton",
     "Kursus Mengaji Terdekat Lampung",
   ],
 

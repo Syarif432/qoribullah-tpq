@@ -122,14 +122,14 @@ export default function Hero() {
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
           className="lg:col-span-5 relative hidden lg:block h-145 w-full"
         >
-          <div className="absolute inset-0 bg-primary/5 backdrop-blur-sm rounded-none border border-primary/10 transform translate-x-4 translate-y-4" />
+          {/* <div className="absolute inset-0 bg-primary/5 backdrop-blur-sm rounded-none border border-primary/10 transform translate-x-4 translate-y-4" />
           <div className="absolute inset-0 bg-white/95 backdrop-blur-md p-12 flex flex-col justify-between border border-primary/10 shadow-lg">
             <Image src={"/logo.png"} alt="logo" width={500} height={200} />
             <p className="text-xs text-text/40 leading-relaxed font-mono">
               TPQ Qoribullah © 2026 — Rencana Desain Ruang Lingkup Kurikulum
               Teoretis & Praktis Anak Tingkat Dasar.
             </p>
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </section>
